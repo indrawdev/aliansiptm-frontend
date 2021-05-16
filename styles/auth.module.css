@@ -1,0 +1,210 @@
+/* Login-page-start */
+.login-page {
+	padding: 100px 0px;
+}
+
+.login-signup-page .login-signup-area {
+	background: #f1f1f1;
+}
+
+.login-signup-page .login-signup-area .login-signup-box {
+	background: #fff;
+}
+
+.login-signup-page .login-signup-area .login-signup-box .login-form {
+	padding: 30px;
+}
+
+.login-signup-page .login-signup-area .login-signup-box .login-form form input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	margin-top: 10px;
+}
+
+.login-signup-page .login-signup-area .login-signup-box .login-form form input:focus {
+	outline: none;
+}
+
+.login-signup-page .login-signup-area .login-signup-box .login-form form button {
+	width: 250px;
+	margin: 30px auto 0px;
+	display: block;
+}
+
+.login-signup-page .login-signup-area .login-signup-box .nav .nav-link {
+	padding: 15px 20px;
+}
+
+.login-signup-page .login-signup-area .login-signup-box .nav .nav-link.signin {
+	background: #e8e9ed;
+}
+
+.login-signup-page .login-signup-area .login-signup-box .nav .nav-link.register {
+	background: #2d3b55;
+}
+
+@media screen and (min-width: 992px) {
+	.login-signup-page .login-signup-area .login-signup-box .login-form {
+			padding: 50px;
+	}
+}
+
+.login-page .signin .signin-content {
+	background-position: center;
+	background-size: cover;
+}
+
+.login-page .signin .signin-content .inner {
+	background: #ff6d4c;
+	color: white;
+	height: 100%;
+	padding: 50px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.login-page .signin .signin-form {
+	background: #c4a2fc;
+	color: white;
+	border-radius: 10px;
+}
+
+.login-page .signin .signin-form form {
+	padding: 50px 50px 30px;
+}
+
+.recover-pass a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.light-outline {
+	background: transparent;
+	color: white;
+	border: 2px solid white;
+	transition: 0.2s ease-in;
+}
+
+.light-outline:hover {
+	color: inherit;
+	background: white;
+	color: black;
+}
+
+.inner h4 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.inner p {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.login-page .signin .signin-form form .input-grp {
+	margin-bottom: 30px;
+}
+
+.login-page .signin .signin-form form .input-grp label {
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.login-page .signin .signin-form form .input-grp input {
+	display: block;
+	background: inherit;
+	border: none;
+	border-bottom: 1px solid white;
+	width: 100%;
+	padding: 0px;
+}
+
+.login-page .signin .signin-form form .input-grp input:focus {
+	outline: none;
+}
+
+.login-page .signin .signin-form form button {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.login-page .signin .signin-form .recover-pass {
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid white;
+}
+
+
+/* Signup-start */
+
+.signup-page {
+	padding: 100px 0px;
+}
+
+.signup-page .signup .signup-content {
+	background: url("../images/about/ab-1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	text-align: center;
+}
+
+.signup-page .signup .signup-content .shadow {
+	background: #563f4fba;
+	color: white;
+	height: 100%;
+	padding: 40px;
+}
+
+.signup-page .signup .signup-content .shadow h4 {
+	margin-top: 15px;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.shadow p {
+	color: #fff;
+	margin-top: 20px;
+}
+
+.signup-page .signup .signup-form {
+	background: #c4a2fc;
+}
+
+.signup-page .signup .signup-form form {
+	padding: 50px 50px 30px;
+}
+
+.signup-page .signup .signup-form form .input-grp {
+	margin-bottom: 30px;
+}
+
+.signup-page .signup .signup-form form .input-grp label {
+	display: block;
+	margin: 0px;
+	color: white;
+}
+
+.signup-page .signup .signup-form form .input-grp input {
+	background: inherit;
+	border: none;
+	border-bottom: 1px solid white;
+	width: 100%;
+	padding: 0px;
+}
+
+.signup-page .signup .signup-form form .input-grp input:focus {
+	outline: none;
+}
+
+@media screen and (min-width: 992px) {
+	.signup-page .signup .signup-content .shadow {
+			padding: 90px 30px 0px;
+	}
+}

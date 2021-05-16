@@ -1,0 +1,197 @@
+/* Slider-start */
+/*==========================  START HOME ============================*/
+
+.home {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 550px;
+}
+
+.home .home-image::before {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	z-index: 1;
+}
+
+.home .home-detail {
+	position: absolute;
+	top: 20%;
+	right: 0;
+	margin: auto;
+	left: 0;
+	height: 0;
+	text-align: center;
+	padding: 0 70px;
+	z-index: 1;
+}
+
+.home .home-title {
+	font-size: 55px;
+	font-weight: 900;
+	color: #fff;
+	line-height: 0px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.home h2 {
+	font-weight: 600;
+	color: #fff;
+	font-size: 26px;
+	letter-spacing: 10px;
+}
+
+.home .owl-item.active h1.home-title {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-name: fadeInDown;
+	animation-delay: 0.3s;
+}
+
+.home .owl-item.active h2 {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-name: fadeInLeft;
+	animation-delay: 0.3s;
+}
+
+.home .owl-item.active .home-button {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-name: fadeInUp;
+	animation-delay: 0.3s;
+}
+
+.wow {
+	visibility: hidden;
+}
+
+/* Slider-end */
+
+/* Why-you-help-them-start */
+/* home-service-area */
+.home-service-area {
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+
+.home-service-wrapper {
+	background-position: center center;
+	background-size: cover;
+	background-image: url('../images/about/bg.jpg');
+	padding: 120px 0;
+}
+
+.home-content {
+	background: #fff;
+	margin: auto;
+	padding: 40px 40px;
+	width: 420px;
+	border-radius: 5px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
+	border-bottom: 5px solid #563f4f;
+}
+
+.home-content h3 {
+	border-bottom: 1px solid #c4a2fc;
+	color: #563f4f;
+	font-size: 35px;
+	font-weight: 800;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+.content {
+	margin-top: 27px;
+}
+
+.content h4 {
+	font-size: 18px;
+	color: #563f4f;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.content p {
+	color: #563f4f;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 26px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.home-area-right {
+	padding: 50px;
+}
+
+.home-section>h3 {
+	color: #563f4f;
+	font-size: 36px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+.home-section h4 {
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-weight: 600;
+	color: #ff6d4c;
+}
+
+.homes-info p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #888;
+	margin-bottom: 0;
+}
+
+.homes-info {
+	margin-bottom: 28px;
+	padding-right: 47px;
+}
+
+.home-wrapper {
+	box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
+	text-align: center;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.home-text img {
+	width: 70px;
+}
+
+.home-text {
+	position: relative;
+}
+
+.home-text>p {
+	color: #888;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.home-text h5 {
+	font-size: 16px;
+	padding-top: 20px;
+	font-weight: 700;
+	color: #563f4f;
+	margin: 0;
+}
