@@ -84,7 +84,60 @@ export default function Layout({ children, home }) {
 											<a class="dropdown-item" href="index-3.html">Home Three</a>
 										</div>
 									</li>
-
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle"
+											href="#" role="button"
+											data-toggle="dropdown"
+											aria-haspopup="true"
+											aria-expanded="false">About
+											</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="about.html">About One</a>
+											<a class="dropdown-item" href="about-2.html">About Two</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">
+											Cases
+										</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="cases.html">Cases 1</a>
+											<a class="dropdown-item" href="cases-2.html">Cases 2</a>
+											<a class="dropdown-item" href="cases-3.html">Cases 3</a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="cause.html">Cause</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">
+											Events
+										</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="event-list.html">Event List</a>
+											<a class="dropdown-item" href="event-detail.html">Event-detail</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">
+											Pages
+										</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="login.html">Login</a>
+											<a class="dropdown-item" href="register.html">Register</a>
+											<a class="dropdown-item" href="testimonials.html">Testimonials</a>
+											<a class="dropdown-item" href="volunter.html">Volunteer</a>
+											<a class="dropdown-item" href="partner.html">Partner</a>
+											<a class="dropdown-item" href="faq.html">Faq</a>
+											<a class="dropdown-item" href="error.html">404</a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact.html">Contact</a>
+									</li>
 								</ul>
 							</div>
 						</nav>
