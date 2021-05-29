@@ -24,47 +24,60 @@ export default function Layout({ children, home }) {
 				<meta name="og:title" content={siteTitle} />
 				<meta name="twitter:card" content="summary_large_image" />
 				<script type="text/javascript" src="/js/myscript.js"></script>
+				<script src="assets/jquery/jquery-3.2.1.min.js"></script>
+				<script src="assets/bootstrap-4/dist/js/bootstrap.min.js"></script>
+				<script src="assets/owl/owl.carousel.min.js"></script>
 				<link href="assets/bootstrap-4/dist/css/bootstrap.min.css" rel="stylesheet" />
 				<link href="assets/owl/owl.carousel.css" rel="stylesheet" />
 				<link href="assets/poper/css/popper.css" rel="stylesheet" />
+				<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 			</Head>
 			<header>
-				<div class="header-top-area">
+				<div className={styles.header_top_area}>
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-sm-6 col-xs-12">
-								<div class="headers-left">
-									<div class="headers-left-text">
-										<div class="headers-left-icon">
+								<div className={styles.headers_left}>
+									<div className={styles.headers_left_text}>
+										<div className={styles.headers_left_icon}>
 											<i class="fa fa-phone"></i>
 										</div>
-										<div class="headers-left-text">
+										<div className={styles.headers_left_text}>
 											<p>+123456789</p>
 										</div>
 									</div>
-									<div class="headers-left-text">
-										<div class="headers-left-icon">
+									<div className={styles.headers_left_text}>
+										<div className={styles.headers_left_icon}>
 											<i class="fa fa-home"></i>
 										</div>
-										<div class="headers-left-text">
+										<div className={styles.headers_left_text}>
 											<p>2021 New York, USA</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-12">
-								<div class="header-rights">
+								<div className={styles.header_rights}>
 									<a href="#"><i class="fa fa-usd"></i>Donate Now</a></div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="main-header-menu">
+				<div className={styles.main_header_menu}>
 					<div class="container">
-						<a href="index.html">
-							<img src="images/logo/logo-two.png" class="one logo img-fluid" alt="logo" />
-						</a>
-						<nav class="navbar navbar-expand-lg">
+						<Link href="/">
+							<a>
+								<Image
+									src="/images/logo/logo-two.png"
+									className={styles.logo}
+									class="one img-fluid"
+									alt="logo"
+									width={229}
+									height={83}
+								/>
+							</a>
+						</Link>
+						<nav className={styles.navbar} class="navbar-expand-lg">
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 								aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 								<i class="fa fa-bars"></i>
@@ -72,19 +85,27 @@ export default function Layout({ children, home }) {
 							<div id="navbarNavDropdown" class="navbar-collapse collapse ml-auto">
 								<i class="fa fa-times" id="resMenuCloseIcon" data-toggle="collapse" data-target="#navbarNavDropdown"
 									aria-controls="navbarNavDropdown" aria-expanded="true"></i>
-								<ul class="navbar-nav mr-auto">
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle active" href="#" role="button" data-toggle="dropdown"
-											aria-haspopup="true" aria-expanded="false">
-											Home
+								<ul className={styles.navbar_nav} class="mr-auto">
+									<li class="nav-item" className={styles.dropdown}>
+										<Link href="/">
+											<a className={styles.dropdown_toggle} class="nav-link active" role="button" data-toggle="dropdown"
+												aria-haspopup="true" aria-expanded="false">
+												Home
                 		</a>
-										<div class="dropdown-menu">
-											<a class="dropdown-item" href="index.html">Home One</a>
-											<a class="dropdown-item" href="index-2.html">Home Two</a>
-											<a class="dropdown-item" href="index-3.html">Home Three</a>
+										</Link>
+										<div className={styles.dropdown_menu}>
+											<a className={styles.dropdown_item} href="index.html">Home One</a>
+											<a className={styles.dropdown_item} href="index-2.html">Home Two</a>
+											<a className={styles.dropdown_item} href="index-3.html">Home Three</a>
 										</div>
 									</li>
-
+									<li class="nav-item dropdown">
+										<Link href="about">
+											<a className={styles.dropdown_toggle} class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												About
+										</a>
+										</Link>
+									</li>
 								</ul>
 							</div>
 						</nav>
@@ -93,17 +114,20 @@ export default function Layout({ children, home }) {
 			</header>
 			<main>{children}</main>
 			<footer>
-				<div class="footer--top black-bg">
+				<div className={styles.footer_top} class="black-bg">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="cab-widget widget-image">
 									<div class="cab-aside--logo">
 										<a href="index.html">
-											<img
-												src="images/logo/logo-two.png"
-												class="img-fluid logo"
-												alt="loog"
+											<Image
+												src="/images/logo/logo-two.png"
+												className={styles.logo}
+												class="img-fluid"
+												alt="Logo"
+												width={229}
+												height={83}
 											/>
 										</a>
 									</div>
@@ -144,7 +168,7 @@ export default function Layout({ children, home }) {
 						</div>
 					</div>
 				</div>
-				<div class="footer--bottom secondary-bg">
+				<div className={styles.footer_bottom} class="secondary-bg">
 					<div class="container">
 						<p>Copyright 2021. All rights reserved</p>
 					</div>
