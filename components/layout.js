@@ -112,6 +112,7 @@ export default function Layout({ children, home }) {
 					</div>
 				</div>
 			</header>
+
 			<main>{children}</main>
 			<footer>
 				<div className={styles.footer_top} class="black-bg">
