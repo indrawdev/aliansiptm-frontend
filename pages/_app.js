@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/styles.css'
 import '../styles/normalize.css'
 import '../styles/responsive.css'
 
