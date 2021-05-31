@@ -1,27 +1,27 @@
 .error-page {
-    background: #ffffff;
-    padding: 100px 0px;
+  background: #ffffff;
+  padding: 100px 0px;
 }
 
 .error-page .error-wrap {
-    background: #f9fcff;
-    text-align: center;
-    padding: 100px;
+  background: #f9fcff;
+  text-align: center;
+  padding: 100px;
 }
 
 .error-page .error-wrap span.error-title {
-    font-size: 160px;
-    font-weight: 700;
-    line-height: 1;
-    color: #ff6d4c;
+  font-size: 160px;
+  font-weight: 700;
+  line-height: 1;
+  color: #ff6d4c;
 }
 
 .error-page .error-wrap h3 {
-    margin: 15px 0;
-    font-weight: 800;
+  margin: 15px 0;
+  font-weight: 800;
 }
 
 .error-page .error-wrap p {
-    font-size: 16px;
-    margin-bottom: 60px;
+  font-size: 16px;
+  margin-bottom: 60px;
 }

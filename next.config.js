@@ -1,3 +1,7 @@
 module.exports = {
-  /* config options here */
+	images: {
+		loader: 'imgix',
+		path: 'https://aliansiptm.org/',
+  },
+  trailingSlash: true
 }

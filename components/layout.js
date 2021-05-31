@@ -1,11 +1,20 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-const name = 'Indra Pramana'
-export const siteTitle = 'AliansiPTM'
+export const siteTitle = 'Aliansi PTM'
+export const depanTitle = 'Depan'
+export const tentangTitle = 'Tentang Kami'
+export const kegiatanTitle = 'Kegiatan'
+export const anggotaTitle = 'Anggota'
+export const testimoniTitle = 'Testimoni'
+export const kontakTitle = 'Kontak Kami'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
+	const router = useRouter()
+	const date = new Date()
+	
 	return (
 		<div>
 			<Head>
@@ -22,14 +31,11 @@ export default function Layout({ children, home }) {
 				/>
 				<meta name="og:title" content={siteTitle} />
 				<meta name="twitter:card" content="summary_large_image" />
-				<script type="text/javascript" src="/js/myscript.js"></script>
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"></link>
-				<link href="assets/owl/owl.carousel.css" rel="stylesheet" />
-				<link href="assets/poper/css/popper.css" rel="stylesheet" />
-				<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-				<script src="assets/jquery/jquery-3.2.1.min.js"></script>
+				<link href="/assets/poper/css/popper.css" rel="stylesheet" />
+				<link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+				<script src="/assets/jquery/jquery-3.2.1.min.js"></script>
 				<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-				<script src="assets/owl/owl.carousel.min.js"></script>
 			</Head>
 			<header>
 				<div class="header-top-area">
@@ -42,7 +48,11 @@ export default function Layout({ children, home }) {
 											<i class="fa fa-envelope"></i>
 										</div>
 										<div class="headers-left-text">
-											<p>aliansi.ptm@gmail.com</p>
+											<p>
+												<Link href="mailto:aliansi.ptm@gmail.com">
+													<a>aliansi.ptm@gmail.com</a>
+												</Link>
+											</p>
 										</div>
 									</div>
 									<div class="headers-left-text">
@@ -70,11 +80,11 @@ export default function Layout({ children, home }) {
 						<Link href="/">
 							<a>
 								<Image
-									src="/images/logo/logo-two.png"
+									src="/images/logo/aliansi-ptm.png"
 									class="one logo img-fluid"
-									alt="logo"
-									width={229}
-									height={83}
+									alt={siteTitle}
+									width={300}
+									height={74}
 								/>
 							</a>
 						</Link>
@@ -90,32 +100,32 @@ export default function Layout({ children, home }) {
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item">
 										<Link href="/">
-											<a class="nav-link">Depan</a>
+											<a className={`nav-link ${router.pathname == "/" ? "active" : ""}`}>Depan</a>
 										</Link>
 									</li>
 									<li class="nav-item">
 										<Link href="/tentang">
-											<a class="nav-link">Tentang</a>
+											<a className={`nav-link ${router.pathname == "/tentang" ? "active" : ""}`}>Tentang</a>
 										</Link>
 									</li>
 									<li class="nav-item">
 										<Link href="/kegiatan">
-											<a class="nav-link">Kegiatan</a>
+											<a className={`nav-link ${router.pathname == "/kegiatan" ? "active" : ""}`}>Kegiatan</a>
 										</Link>
 									</li>
 									<li class="nav-item">
 										<Link href="/anggota">
-											<a class="nav-link">Anggota</a>
+											<a className={`nav-link ${router.pathname == "/anggota" ? "active" : ""}`}>Anggota</a>
 										</Link>
 									</li>
 									<li class="nav-item">
 										<Link href="/testimoni">
-											<a class="nav-link">Testimoni</a>
+											<a className={`nav-link ${router.pathname == "/testimoni" ? "active" : ""}`}>Testimoni</a>
 										</Link>
 									</li>
 									<li class="nav-item">
 										<Link href="/kontak">
-											<a class="nav-link">Kontak</a>
+											<a className={`nav-link ${router.pathname == "/kontak" ? "active" : ""}`}>Kontak</a>
 										</Link>
 									</li>
 								</ul>
@@ -126,16 +136,26 @@ export default function Layout({ children, home }) {
 				</div>
 			</header>
 
-			<main>{children}</main>
-			<footer>
+			{children}
+
+			<footer class="footer">
 				<div class="footer--top black-bg">
 					<div class="container">
 						<div class="row">
-
 							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="cab-widget widget-image">
 									<div class="cab-aside--logo">
-										<a href="index.html"><img src="images/logo/logo-two.png" class="img-fluid logo" alt="loog" /></a>
+										<Link href="/">
+											<a>
+												<Image
+													src="/images/logo/aliansi-ptm.png"
+													class="one logo img-fluid"
+													alt={siteTitle}
+													width={300}
+													height={74}
+												/>
+											</a>
+										</Link>
 									</div>
 								</div>
 								<div class="cab-widget widget-text">
@@ -143,26 +163,54 @@ export default function Layout({ children, home }) {
 					has been the industry's standard dummy</p>
 								</div>
 								<div class="cab-widget widget-social-media">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
+									<Link href="/">
+										<a><i class="fa fa-facebook"></i></a>
+									</Link>
+									<Link href="/">
+										<a><i class="fa fa-twitter"></i></a>
+									</Link>
+									<Link href="/">
+										<a><i class="fa fa-instagram"></i></a>
+									</Link>
 								</div>
 							</div>
-
 							<div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-sm">
 								<div class="cab-widget">
 									<h3 class="cab-widget--title">Explore</h3>
 									<ul>
-										<li> <a href="#">Home</a> </li>
-										<li> <a href="#">About Us</a> </li>
-										<li> <a href="#">Contact Us</a> </li>
-										<li> <a href="#">Cases</a> </li>
-										<li> <a href="#">Cause</a> </li>
-										<li> <a href="#">Events</a> </li>
+										<li>
+											<Link href="/">
+												<a>{ depanTitle }</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/tentang">
+												<a>{ tentangTitle }</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/kontak">
+												<a>{ kontakTitle }</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/testimoni">
+												<a>{ testimoniTitle }</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/anggota">
+												<a>{ anggotaTitle }</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/kegiatan">
+												<a>{ kegiatanTitle }</a>
+											</Link>
+										</li>
 									</ul>
 								</div>
 							</div>
-
 							<div class="col-lg-4 col-md-12 col-sm-12 col-ms-12 hidden-xs hidden-sm hidden-md">
 								<div class="cab-widget">
 									<h3 class="cab-widget--title">Newsletter</h3>
@@ -172,17 +220,14 @@ export default function Layout({ children, home }) {
 											<i class="fa fa-paper-plane"></i>
 										</div>
 									</form>
-
 								</div>
 							</div>
-
 						</div>
 					</div>
-
 				</div>
 				<div class="footer--bottom secondary-bg">
 					<div class="container">
-						<p>Copyright 2021. All rights reserved</p>
+						<p>Copyright { date.getFullYear() }. All rights reserved</p>
 					</div>
 				</div>
 			</footer>
