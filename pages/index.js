@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<Layout>
 			<Head>
-				<title>{siteTitle}</title>
+				<title>{siteTitle} - Aliansi Pencegahan dan Pengendalian Penyakit Tidak Menular</title>
 				<link href="assets/owl/owl.carousel.css" rel="stylesheet" />
 				<script src="assets/owl/owl.carousel.min.js"></script>
 			</Head>

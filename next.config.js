@@ -3,5 +3,5 @@ module.exports = {
 		loader: 'imgix',
 		path: 'https://aliansiptm.org/',
   },
-  trailingSlash: true
+  trailingSlash: false
 }

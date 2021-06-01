@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import Layout, { depanTitle, kegiatanTitle } from '../components/layout'
+import Layout, { siteTitle, depanTitle, kegiatanTitle } from '../components/layout'
 
 
 function Kegiatan() {
 	return (
 		<Layout>
 			<Head>
-				<title>{kegiatanTitle}</title>
+				<title>{kegiatanTitle} | {siteTitle} </title>
 			</Head>
 			<section class="sub-section sub-subheader">
 				<div class="container">

@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import Layout, { depanTitle, kontakTitle } from '../components/layout'
+import Layout, { siteTitle, depanTitle, kontakTitle } from '../components/layout'
 
 function Kontak() {
 	return (
 		<Layout>
 			<Head>
-				<title>{kontakTitle}</title>
+				<title>{kontakTitle} | {siteTitle}</title>
 			</Head>
 			<section class="sub-section sub-subheader">
 				<div class="container">

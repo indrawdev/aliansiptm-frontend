@@ -159,18 +159,20 @@ export default function Layout({ children }) {
 									</div>
 								</div>
 								<div class="cab-widget widget-text">
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-					has been the industry's standard dummy</p>
+									<p>Aliansi PTM Indonesia merupakan badan koordinasi dari organisasi anggota dalam mengadakan berbagai kegiatan pengendalian faktor resiko dan penyakit tidak menular di Indonesia</p>
 								</div>
 								<div class="cab-widget widget-social-media">
-									<Link href="/">
-										<a><i class="fa fa-facebook"></i></a>
+									<Link href="https://www.facebook.com/aliansi.ptm">
+										<a target="_blank"><i class="fa fa-facebook"></i></a>
 									</Link>
-									<Link href="/">
-										<a><i class="fa fa-twitter"></i></a>
+									<Link href="https://twitter.com/aliansi_ptm">
+										<a target="_blank"><i class="fa fa-twitter"></i></a>
 									</Link>
-									<Link href="/">
-										<a><i class="fa fa-instagram"></i></a>
+									<Link href="https://www.instagram.com/aliansi.ptm">
+										<a target="_blank"><i class="fa fa-instagram"></i></a>
+									</Link>
+									<Link href="https://www.linkedin.com/company/aliansi-ptm">
+										<a target="_blank"><i class="fa fa-linkedin"></i></a>
 									</Link>
 								</div>
 							</div>

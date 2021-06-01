@@ -741,7 +741,7 @@ select::-ms-expand {
 /* Service-2-start */
 
 .service-two {
-  padding: 100px 0px 80px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .service-two .headline {
@@ -872,7 +872,7 @@ select::-ms-expand {
 /* Home-Version-three */
 
 .about-section-two {
-  padding: 100px 0px;
+  padding: 10px 0px;
 }
 
 .about-2 .row {
@@ -996,7 +996,7 @@ select::-ms-expand {
 /* Service-three-start */
 .service-three-section {
   background: #eaeff7;
-  padding: 100px 0 70px 0;
+  padding: 20px 0 20px 0;
 }
 
 .service-three-section .single-service {
@@ -1022,16 +1022,16 @@ select::-ms-expand {
   background: #f3eff9;
   padding: 15px;
   border-radius: 5px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   z-index: 1;
 }
 
 .service-three-section .single-service span:after {
   position: absolute;
   content: "";
-  /* background: url(../images/icon/service-dot.png); */
+  background: url('../public/images/icon/service-dot.png');
   height: 69px;
-  width: 232px;
+  width: 150px;
   left: 90px;
   top: 60px;
   z-index: 0;
@@ -1088,13 +1088,17 @@ select::-ms-expand {
   color: #ffb606;
 }
 
+.service-three-section .single-service p {
+	text-align: center;
+}
+
 /* End */
 
 /*===============
 4.  About-us-start
 =================*/
 .about-area {
-  padding: 100px 0px 130px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .about-content {
@@ -2677,7 +2681,7 @@ Blog
 
 /* Partners-start */
 .partners {
-  padding: 0px 0px 100px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .partners img {

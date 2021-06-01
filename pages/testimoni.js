@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import Layout, { depanTitle, testimoniTitle } from '../components/layout'
+import Layout, { siteTitle, depanTitle, testimoniTitle } from '../components/layout'
 
 function Testimoni() {
 	return (
 		<Layout>
 			<Head>
-				<title>{testimoniTitle}</title>
+				<title>{testimoniTitle} | {siteTitle}</title>
 			</Head>
 			<section class="sub-section sub-subheader">
 				<div class="container">
