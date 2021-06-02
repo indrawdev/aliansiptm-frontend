@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import Layout, { siteTitle, depanTitle, kegiatanTitle } from '../components/layout'
-
+import Layout, { siteTitle, depanTitle, kegiatanTitle } from '../../components/layout'
 
 function Kegiatan() {
 	return (
