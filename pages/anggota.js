@@ -42,42 +42,84 @@ function Anggota() {
 					<div class="row">
 						<div class="col-lg-3 col-md-6">
 							<div class="single-service green">
-								<span><img src="images/icon/water.png" alt="Images" /></span>
+								<span>
+									<Image
+										src="/images/members/idi.jpg"
+										alt="Ikatan Dokter Indonesia"
+										width={128}
+										height={128}
+									/>
+								</span>
 								<h3>IDI</h3>
 								<p>Ikatan Dokter Indonesia</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
 							<div class="single-service violet">
-								<span><img src="images/icon/food.png" alt="Images" /></span>
+								<span>
+									<Image
+										src="/images/members/yji.png"
+										alt="Yayasan Jantung Indonesia"
+										width={128}
+										height={128}
+									/>
+								</span>
 								<h3>YJI</h3>
 								<p>Yayasan Jantung Indonesia</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
 							<div class="single-service pink">
-								<span><img src="images/icon/home.png" alt="Images" /></span>
+								<span>
+									<Image
+										src="/images/members/perki.jpg"
+										alt="Perhimpunan Dokter Kardiovaskular Indonesia"
+										width={128}
+										height={128}
+									/>
+								</span>
 								<h3>PERKI</h3>
 								<p>Perhimpunan Dokter Kardiovaskular Indonesia</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
 							<div class="single-service green">
-								<span><img src="images/icon/time.png" alt="Images" /></span>
+								<span>
+									<Image
+										src="/images/members/yki.jpg"
+										alt="Yayasan Kanker Indonesia"
+										width={128}
+										height={128}
+									/>
+								</span>
 								<h3>YKI</h3>
 								<p>Yayasan Kanker Indonesia</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
 							<div class="single-service violet">
-								<span><img src="images/icon/cloth.png" alt="Images" /></span>
+								<span>
+									<Image
+										src="/images/members/poi.jpg"
+										alt="Perhimpunan Onkologi Indonesia"
+										width={128}
+										height={128}
+									/>
+								</span>
 								<h3>POI</h3>
-								<p>Perhimpunan Onkologi Indonesia </p>
+								<p>Perhimpunan Onkologi Indonesia</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
 							<div class="single-service pink">
-								<span><img src="images/icon/home.png" alt="Images" /></span>
+								<span>
+									<Image
+										src="/images/members/idai.png"
+										alt="Ikatan Dokter Anak Indonesia"
+										width={128}
+										height={128}
+									/>
+								</span>
 								<h3>IDAI</h3>
 								<p>Ikatan Dokter Anak Indonesia</p>
 							</div>
