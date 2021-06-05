@@ -865,6 +865,7 @@ select::-ms-expand {
   margin: 0;
   font-weight: 500;
   color: #888;
+	text-align: justify;
 }
 
 /* End */
@@ -1141,6 +1142,7 @@ select::-ms-expand {
   color: #888;
   line-height: 30px;
   margin-bottom: 30px;
+	text-align: justify;
 }
 
 .about-main-head:after {

@@ -166,4 +166,27 @@ function Anggota() {
 	)
 }
 
+// export async function getStaticPaths() {
+//   const res = await fetch('https://.../posts')
+// 	const posts = await res.json()
+	
+// 	const paths = posts.map((post) => ({
+//     params: { id: post.id },
+// 	}))
+	
+// 	return { paths, fallback: false }
+// }
+
+// export async function getStaticProps() {
+// 	const res = await fetch('https://.../posts')
+// 	const posts = await res.json()
+	
+// 	return {
+//     props: {
+//       posts,
+// 		},
+// 		revalidate: 10,
+//   }
+// }
+
 export default Anggota
