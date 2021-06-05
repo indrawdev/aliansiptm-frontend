@@ -14,14 +14,15 @@ export const kontakTitle = 'Kontak Kami'
 export default function Layout({ children }) {
 	const router = useRouter()
 	const date = new Date()
-	
+
 	return (
 		<div>
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
+				<meta name="viewport" name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
 				<meta
 					name="description"
-					content="Aliansi Penyakit Dalam"
+					content="Aliansi PTM Indonesia merupakan badan koordinasi dari organisasi anggota dalam mengadakan berbagai kegiatan pengendalian faktor resiko dan penyakit tidak menular di Indonesia"
 				/>
 				<meta
 					property="og:image"
@@ -34,9 +35,6 @@ export default function Layout({ children }) {
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"></link>
 				<link href="/assets/poper/css/popper.css" rel="stylesheet" />
 				<link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-				<script src="/assets/jquery/jquery-3.2.1.min.js"></script>
-				<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-				<script src="/js/main.js"></script>
 			</Head>
 			<header>
 				<div class="header-top-area">
@@ -183,32 +181,32 @@ export default function Layout({ children }) {
 									<ul>
 										<li>
 											<Link href="/">
-												<a>{ depanTitle }</a>
+												<a>{depanTitle}</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/tentang">
-												<a>{ tentangTitle }</a>
+												<a>{tentangTitle}</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/kontak">
-												<a>{ kontakTitle }</a>
+												<a>{kontakTitle}</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/testimoni">
-												<a>{ testimoniTitle }</a>
+												<a>{testimoniTitle}</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/anggota">
-												<a>{ anggotaTitle }</a>
+												<a>{anggotaTitle}</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/kegiatan">
-												<a>{ kegiatanTitle }</a>
+												<a>{kegiatanTitle}</a>
 											</Link>
 										</li>
 									</ul>
@@ -230,10 +228,13 @@ export default function Layout({ children }) {
 				</div>
 				<div class="footer--bottom secondary-bg">
 					<div class="container">
-						<p>Copyright { date.getFullYear() } - All rights reserved</p>
+						<p>Copyright {date.getFullYear()} - All rights reserved</p>
 					</div>
 				</div>
 			</footer>
+			<script src="/assets/jquery/jquery-3.2.1.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+			<script src="/js/main.js"></script>
 		</div>
 	)
 }

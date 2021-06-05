@@ -8,6 +8,10 @@ function Daftar() {
 		<Layout>
 			<Head>
 				<title>{siteTitle}</title>
+				<meta
+					name="description"
+					content="Daftar | ${{siteTitle}}"
+				/>
 			</Head>
 		</Layout>
 	)
