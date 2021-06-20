@@ -9,7 +9,7 @@ function Kontak() {
 			<Head>
 				<title>{kontakTitle} | {siteTitle}</title>
 			</Head>
-			<section class="sub-section sub-subheader">
+			<section class="sub-section sub-subheader header-kontak">
 				<div class="container">
 					<div class="sub-subheader--inner">
 						<h1>{kontakTitle}</h1>

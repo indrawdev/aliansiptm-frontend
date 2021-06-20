@@ -9,7 +9,7 @@ function Tentang() {
 			<Head>
 				<title>{tentangTitle} | {siteTitle}</title>
 			</Head>
-			<section class="sub-section sub-subheader">
+			<section class="sub-section sub-subheader header-tentang">
 				<div class="container">
 					<div class="sub-subheader--inner">
 						<h1>{tentangTitle}</h1>

@@ -10,6 +10,7 @@ export const kegiatanTitle = 'Kegiatan'
 export const anggotaTitle = 'Anggota'
 export const testimoniTitle = 'Testimoni'
 export const kontakTitle = 'Kontak Kami'
+export const daftarTitle = 'Daftar'
 
 export default function Layout({ children }) {
 	const router = useRouter()
@@ -234,7 +235,7 @@ export default function Layout({ children }) {
 			</footer>
 			<script src="/assets/jquery/jquery-3.2.1.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-			<script src="/js/main.js"></script>
+			{/* <script src="/js/main.js"></script> */}
 		</div>
 	)
 }

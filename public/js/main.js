@@ -2,26 +2,27 @@
 $(document).ready(function () {
 	"use strict";
 
-	// //  HOME CAROUSEL
-	// $('.home-inner').owlCarousel({
-	// 	loop: true,
-	// 	margin: -1,
-	// 	autoplay: true,
-	// 	dots: true,
-	// 	autoplayTimeout: 7000,
-	// 	smartSpeed: 1200,
-	// 	responsive: {
-	// 		0: {
-	// 			items: 1
-	// 		},
-	// 		768: {
-	// 			items: 1
-	// 		},
-	// 		1170: {
-	// 			items: 1
-	// 		}
-	// 	}
-	// });
+	//  HOME CAROUSEL
+	$('.home-inner').owlCarousel({
+		navigation : true,
+		loop: true,
+		margin: -1,
+		autoplay: true,
+		dots: true,
+		autoplayTimeout: 7000,
+		smartSpeed: 1200,
+		responsive: {
+			0: {
+				items: 1
+			},
+			768: {
+				items: 1
+			},
+			1170: {
+				items: 1
+			}
+		}
+	});
 
 	//  TESTIMONIALS CAROUSEL HOOK
 	$('.inner-testimonial').owlCarousel({

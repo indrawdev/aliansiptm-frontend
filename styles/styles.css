@@ -215,12 +215,12 @@ label {
 }
 
 .btn-primary:hover {
-  color: #ff6d4c;
+  color: #ec0201;
   border-color: #fff;
 }
 
 .btn-primary:focus {
-  color: #ff6d4c;
+  color: #ec0201;
   background-color: #fff;
   border-color: #fff;
 }
@@ -228,11 +228,11 @@ label {
 .custom-navbar .navbar-nav li a:hover,
 .custom-navbar .navbar-nav li a.active,
 .common-color {
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .common-back-color {
-  background-color: #ff6d4c;
+  background-color: #ec0201;
 }
 
 /* Basic-stylesheet */
@@ -324,7 +324,7 @@ h6 {
 }
 
 .headers-left-icon i {
-  color: #ff6d4c;
+  color: #ec0201;
   font-size: 16px;
 }
 
@@ -345,7 +345,7 @@ h6 {
 }
 
 .header-rights a {
-  background: #ff6d4c;
+  background: #ec0201;
   color: #fff;
   font-size: 14px;
   padding: 5px 5px;
@@ -353,7 +353,7 @@ h6 {
   border-radius: 2px;
   text-align: center;
   font-weight: 600;
-  border: 2px solid #ff6d4c;
+  border: 2px solid #ec0201;
 }
 
 .header-rights a:hover {
@@ -448,7 +448,7 @@ h6 {
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  color: #ff6d4c;
+  color: #ec0201;
   text-decoration: none;
   background-color: #fff;
 }
@@ -663,7 +663,7 @@ select::-ms-expand {
 .heading__subtitle {
   font-size: 16px;
   font-weight: 700;
-  color: #ff6d4c;
+  color: #ec0201;
   display: block;
   margin-bottom: 10px;
 }
@@ -704,7 +704,7 @@ select::-ms-expand {
 .about-sec .about-two__icon {
   font-size: 20px;
   line-height: 1;
-  color: #ff6d4c;
+  color: #ec0201;
   -webkit-transition: transform 0.3s ease;
   -moz-transition: transform 0.3s ease;
   -ms-transition: transform 0.3s ease;
@@ -777,7 +777,7 @@ select::-ms-expand {
   0% {
     width: 0;
     height: 0;
-    border-top-color: #ff6d4c;
+    border-top-color: #ec0201;
     border-right-color: transparent;
     border-left-color: transparent;
     border-bottom-color: transparent;
@@ -786,8 +786,8 @@ select::-ms-expand {
   50% {
     width: 100%;
     height: 0;
-    border-top-color: #ff6d4c;
-    border-right-color: #ff6d4c;
+    border-top-color: #ec0201;
+    border-right-color: #ec0201;
     border-left-color: transparent;
     border-bottom-color: transparent;
   }
@@ -795,8 +795,8 @@ select::-ms-expand {
   100% {
     width: 100%;
     height: 100%;
-    border-top-color: #ff6d4c;
-    border-right-color: #ff6d4c;
+    border-top-color: #ec0201;
+    border-right-color: #ec0201;
     border-left-color: transparent;
     border-bottom-color: transparent;
   }
@@ -826,7 +826,7 @@ select::-ms-expand {
     border-top-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
-    border-bottom-color: #ff6d4c;
+    border-bottom-color: #ec0201;
   }
 
   50% {
@@ -834,8 +834,8 @@ select::-ms-expand {
     height: 100%;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-left-color: #ff6d4c;
-    border-bottom-color: #ff6d4c;
+    border-left-color: #ec0201;
+    border-bottom-color: #ec0201;
   }
 
   100% {
@@ -843,8 +843,8 @@ select::-ms-expand {
     height: 100%;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-left-color: #ff6d4c;
-    border-bottom-color: #ff6d4c;
+    border-left-color: #ec0201;
+    border-bottom-color: #ec0201;
   }
 }
 
@@ -1005,7 +1005,7 @@ select::-ms-expand {
   padding: 40px;
   margin-bottom: 30px;
   box-shadow: 0 3px 35px 0 rgba(46, 61, 73, 0.06);
-  border-bottom: 3px solid #ff6d4c;
+  border-bottom: 3px solid #ec0201;
   border-radius: 3px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -1054,7 +1054,7 @@ select::-ms-expand {
 }
 
 .service-three-section .single-service:hover h3 {
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .service-three-section .green {
@@ -1074,11 +1074,11 @@ select::-ms-expand {
 }
 
 .service-three-section .pink {
-  border-bottom: 3px solid #ff6d4c;
+  border-bottom: 3px solid #ec0201;
 }
 
 .service-three-section .pink i {
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .service-three-section .orange {
@@ -1190,9 +1190,9 @@ select::-ms-expand {
 }
 
 .about-content .banner-btn {
-  background: #ff6d4c;
+  background: #ec0201;
   color: #fff;
-  border: 1px solid #ff6d4c;
+  border: 1px solid #ec0201;
 }
 
 /* Why-us-start */
@@ -1254,7 +1254,7 @@ select::-ms-expand {
 }
 
 .btn-donate {
-  background-color: #ff6d4c;
+  background-color: #ec0201;
   margin-top: 20px;
   border: 2px solid #fff;
   color: white;
@@ -1279,7 +1279,7 @@ select::-ms-expand {
 .why-choose-area .why-choose-content .content span {
   font-weight: 700;
   position: relative;
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .why-choose-area .why-choose-content .content span::before {
@@ -1290,7 +1290,7 @@ select::-ms-expand {
   transform: translateY(-50%);
   height: 2px;
   width: 60px;
-  background-color: #ff6d4c;
+  background-color: #ec0201;
 }
 
 .why-choose-area .why-choose-content .content .title {
@@ -1322,7 +1322,7 @@ select::-ms-expand {
 }
 
 .why-choose-area .why-choose-thumb .play a i {
-  color: #ff6d4c;
+  color: #ec0201;
   background: #f2f5f8;
   height: 75px;
   width: 75px;
@@ -1538,7 +1538,7 @@ select::-ms-expand {
   font-size: 20px;
   letter-spacing: 5px;
   font-weight: 600;
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .homes-info p {
@@ -1779,7 +1779,7 @@ ul.project-badges li {
 }
 
 ul.project-badges li.pink {
-  background-color: #ff6d4c;
+  background-color: #ec0201;
 }
 
 .progress {
@@ -1793,7 +1793,7 @@ ul.project-badges li.pink {
 .progress-bar {
   width: 0;
   animation: progress 1.5s ease-in-out forwards;
-  background-color: #ff6d4c;
+  background-color: #ec0201;
 
   /* .title {
         opacity: 0;
@@ -1984,7 +1984,7 @@ ul.project-badges li.pink {
 }
 
 .team-image .team-inner ul li a:hover {
-  background-color: #ff6d4c;
+  background-color: #ec0201;
   color: #fff;
 }
 
@@ -1995,7 +1995,7 @@ ul.project-badges li.pink {
 }
 
 .team-inner .team-info a {
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .team-inner .team-info span {
@@ -2024,7 +2024,7 @@ ul.project-badges li.pink {
 }
 
 .faq-img-heading {
-  background-color: #ff6d4c;
+  background-color: #ec0201;
   color: #fff;
   padding: 10px;
   position: absolute;
@@ -2302,7 +2302,7 @@ Blog
   font-style: italic;
   border-left-width: 3px;
   border-left-style: solid;
-  background-color: #ff6d4c;
+  background-color: #ec0201;
   color: #fff;
   border-left: 4px solid #000;
 }
@@ -2310,7 +2310,7 @@ Blog
 .blog-detail h1 {
   font-weight: 800;
   margin-top: 0px;
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .blog-detail h2 {
@@ -2413,7 +2413,7 @@ Blog
 .news-details-side .footer-column h3 {
   margin-top: 0;
   background-color: #f2f2f2;
-  border-left: 4px solid #ff6d4c;
+  border-left: 4px solid #ec0201;
   padding: 15px;
   font-size: 14px;
   font-weight: 600;
@@ -2521,7 +2521,7 @@ Blog
 
 .widget .tagcloud a {
   padding: 5px 12px;
-  background: #ff6d4c;
+  background: #ec0201;
   color: #ffffff;
   display: inline-block;
   border-radius: 30px;
@@ -2658,7 +2658,7 @@ Blog
 }
 
 .booking-card.two {
-  background-color: #ff6d4c;
+  background-color: #ec0201;
 }
 
 .booking-card.three {
@@ -2887,9 +2887,30 @@ Blog
 }
 
 /* Subheader-start */
+.header-depan {
+	background-image: url('../public/images/headers/un-hlm-nyc.jpg');
+}
+.header-tentang {
+	background-image: url('../public/images/headers/enough-campaign-at-cb-amkri.jpg');
+}
+.header-kegiatan {
+	background-image: url('../public/images/headers/ncdfree.jpg');
+}
+.header-anggota {
+	background-image: url('../public/images/headers/taskforce-commitment-meeting-of-ncda-indonesia.jpg');
+}
+.header-testimoni {
+	background-image: url('../public/images/headers/dr-asmoko-at-ncda-session.jpeg');
+}
+.header-kontak {
+	background-image: url('../public/images/headers/dr-asmoko-at-ncda-session.jpeg');
+}
+.header-daftar {
+	background-image: url('../public/images/headers/un-hlm-nyc.jpg');
+}
+
 .sub-subheader {
   position: relative;
-  background-image: url('../public/images/about/ab-1.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -3092,7 +3113,7 @@ Blog
 }
 
 .login-page .signin .signin-content .inner {
-  background: #ff6d4c;
+  background: #ec0201;
   color: white;
   height: 100%;
   padding: 50px;
@@ -3259,7 +3280,7 @@ Blog
   font-size: 160px;
   font-weight: 700;
   line-height: 1;
-  color: #ff6d4c;
+  color: #ec0201;
 }
 
 .error-page .error-wrap h3 {

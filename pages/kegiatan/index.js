@@ -9,7 +9,7 @@ function Kegiatan() {
 			<Head>
 				<title>{kegiatanTitle} | {siteTitle} </title>
 			</Head>
-			<section class="sub-section sub-subheader">
+			<section class="sub-section sub-subheader header-kegiatan">
 				<div class="container">
 					<div class="sub-subheader--inner">
 						<h1>{kegiatanTitle}</h1>
