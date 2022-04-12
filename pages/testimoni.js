@@ -40,7 +40,7 @@ function Testimoni() {
 					<div className="row mt-3">
 						<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 							<div className="inner-testimonial owl-carousel">
-								<div className="text-center testimonial-data mx-auto">
+								<div className="text-center testimonial-data mx-auto mb-40">
 									<div className="testimonial-icon text-custom">
 										<i className="fa fa-quote-left" aria-hidden="true"></i>
 									</div>
@@ -56,7 +56,7 @@ function Testimoni() {
 										</div>
 									</div>
 								</div>
-								<div className="text-center testimonial-data mx-auto">
+								<div className="text-center testimonial-data mx-auto mb-40">
 									<div className="testimonial-icon text-custom">
 										<i className="fa fa-quote-left" aria-hidden="true"></i>
 									</div>
@@ -72,7 +72,7 @@ function Testimoni() {
 										</div>
 									</div>
 								</div>
-								<div className="text-center testimonial-data mx-auto">
+								<div className="text-center testimonial-data mx-auto mb-40">
 									<div className="testimonial-icon text-custom">
 										<i className="fa fa-quote-left" aria-hidden="true"></i>
 									</div>
