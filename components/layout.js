@@ -68,7 +68,7 @@ export default function Layout({ children }) {
 							<div className="col-md-6 col-sm-6  col-xs-12">
 								<div className="header-rights">
 									<Link href="https://forms.gle/sDvyFq19SJdGkgZp8">
-										<a target="_blank"><i className="fa fa-user-plus"></i>DAFTAR</a>
+										<a target="_blank"><i className="fa fa-user-plus"></i>JADI RELAWAN</a>
 									</Link>
 								</div>
 							</div>
