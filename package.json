@@ -1,7 +1,7 @@
 {
   "name": "aliansiptm",
   "version": "0.1.0",
-	"homepage": "https://aliansiptm.org",
+  "homepage": "https://aliansiptm.org",
   "private": true,
   "scripts": {
     "dev": "next dev",

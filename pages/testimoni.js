@@ -9,15 +9,15 @@ function Testimoni() {
 			<Head>
 				<title>{testimoniTitle} | {siteTitle}</title>
 			</Head>
-			<section class="sub-section sub-subheader header-testimoni">
-				<div class="container">
-					<div class="sub-subheader--inner">
+			<section className="sub-section sub-subheader header-testimoni">
+				<div className="container">
+					<div className="sub-subheader--inner">
 						<h1>{testimoniTitle}</h1>
-						<div class="breadcrumbs-wrapper">
-							<ul class="breadcrumbs">
+						<div className="breadcrumbs-wrapper">
+							<ul className="breadcrumbs">
 								<li>
 									<Link href="/">
-										<a><i class="fa fa-home"></i> {depanTitle}</a>
+										<a><i className="fa fa-home"></i> {depanTitle}</a>
 									</Link>
 									<span>/</span>
 								</li>
@@ -27,55 +27,64 @@ function Testimoni() {
 					</div>
 				</div>
 			</section>
-			<section class="testimonial">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-12 col-lg-8">
-							<div class="section-title text-center">
-								<h2>People</h2><span class="color">Reviews</span>
-								<p>Our donation will help us save and improve lives with research, education and emergency care.</p>
+			<section className="testimonial">
+				<div className="container">
+					<div className="row justify-content-center">
+						<div className="col-md-12 col-lg-8">
+							<div className="section-title text-center">
+								<h2>Testimoni</h2>
+								{/* <p>Our donation will help us save and improve lives with research, education and emergency care.</p> */}
 							</div>
 						</div>
 					</div>
-					<div class="row mt-3">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-							<div class="inner-testimonial owl-carousel">
-								<div class="text-center testimonial-data mx-auto">
-									<div class="testimonial-icon text-custom">
-										<i class="fa fa-quote-left" aria-hidden="true"></i>
+					<div className="row mt-3">
+						<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<div className="inner-testimonial owl-carousel">
+								<div className="text-center testimonial-data mx-auto">
+									<div className="testimonial-icon text-custom">
+										<i className="fa fa-quote-left" aria-hidden="true"></i>
 									</div>
-									<div class="mt-4">
-										<div class="testimonial-img">
-											<img src="images/testimonials/testimonial-pic-1.jpg" alt="client image"
+									<div className="mt-4">
+										<div className="testimonial-img">
+											<img src="/images/testimonials/Farrukh-Qureshi.jpg" alt="Dr. Farukh Qureshi"
 												class="mx-auto img-fluid d-block img-thumbnail rounded-circle" />
-
 										</div>
-										<div class="testimonial-detail">
-											<p class="client-review mt-4 text-center font-italic">"Lorem ipsum dolor sit amet, consectetur
-											adipiscing elit. Sed non libero consectetur, blandit mauris eget, imperdiet nisl. Etiam commodo ex
-											nec erat tempor varius. Nunc rutrum pretium nunc in malesuada. Curabitur mollis urna ac sapien
-                    vulputate, ut congue sapien vehicula."</p>
-											<p class="client-name text-center font-weight-bold mb-0 mt-4">John Doe</p>
-											<p class="client-name position text-center mb-0 mt-1">Volunteer</p>
+										<div className="testimonial-detail">
+											<p className="client-review mt-4 text-center font-italic">"Setiap tahun ada 40 juta orang meninggal akibat penyakit tidak menular, 15 juta diantaranya meninggal di usia 30-70 tahun. Artinya, setiap 2 detik seseorang mati premature akibat penyakit ini. Hampir dua pertiga dari total kematian akibat penyakit tidak menular terkait dengan konsumsi rokok, alcohol, diet tidak sehat, dan aktifitas fisik yang kurang."</p>
+											<p className="client-name text-center font-weight-bold mb-0 mt-4">Dr. Farukh Qureshi</p>
+											<p className="client-name position text-center mb-0 mt-1">WHO Indonesia</p>
 										</div>
 									</div>
 								</div>
-								<div class="text-center testimonial-data mx-auto">
-									<div class="testimonial-icon text-custom">
-										<i class="fa fa-quote-left" aria-hidden="true"></i>
+								<div className="text-center testimonial-data mx-auto">
+									<div className="testimonial-icon text-custom">
+										<i className="fa fa-quote-left" aria-hidden="true"></i>
 									</div>
-									<div class="mt-4">
-										<div class="testimonial-img">
-											<img src="images/testimonials/testimonial-pic-2.jpg" alt="client image"
+									<div className="mt-4">
+										<div className="testimonial-img">
+											<img src="/images/testimonials/Guido-Girardi.jpg" alt="Guido Gerardi"
 												class="mx-auto img-fluid d-block img-thumbnail rounded-circle" />
 										</div>
-										<div class="testimonial-detail">
-											<p class="client-review mt-4 text-center font-italic">"Lorem ipsum dolor sit amet, consectetur
-											adipiscing elit. Sed non libero consectetur, blandit mauris eget, imperdiet nisl. Etiam commodo ex
-											nec erat tempor varius. Nunc rutrum pretium nunc in malesuada. Curabitur mollis urna ac sapien
-                    vulputate, ut congue sapien vehicula."</p>
-											<p class="client-name text-center font-weight-bold mb-0 mt-4">John Doe</p>
-											<p class="client-name position text-center mb-0 mt-1">Volunteer</p>
+										<div className="testimonial-detail">
+											<p className="client-review mt-4 text-center font-italic">“Saya berharap semakin banyak masyarakat yang menyadari bahwa PTM merupakan penyakit yang menyebar bahkan lebih luas dari penyakit menular. Sistem kebijakan makanan di suatu Negara harus dibuat untuk memperbaiki kesehatan masyarakat, bukan sebaliknya.”</p>
+											<p className="client-name text-center font-weight-bold mb-0 mt-4">Guido Gerardi</p>
+											<p className="client-name position text-center mb-0 mt-1">Anggota Senat Chile</p>
+										</div>
+									</div>
+								</div>
+								<div className="text-center testimonial-data mx-auto">
+									<div className="testimonial-icon text-custom">
+										<i className="fa fa-quote-left" aria-hidden="true"></i>
+									</div>
+									<div className="mt-4">
+										<div className="testimonial-img">
+											<img src="/images/testimonials/Zoleka-Mandela.jpg" alt="Zoleka-Mandela"
+												class="mx-auto img-fluid d-block img-thumbnail rounded-circle" />
+										</div>
+										<div className="testimonial-detail">
+											<p className="client-review mt-4 text-center font-italic">“Suara penyitas kanker adalah senjata yang kuat untuk membuat perubahan bagi masyarakat.”</p>
+											<p className="client-name text-center font-weight-bold mb-0 mt-4">Zoleka Mandela</p>
+											<p className="client-name position text-center mb-0 mt-1">Aktivis Kesetaraan Gender dan Penyitas Kanker</p>
 										</div>
 									</div>
 								</div>

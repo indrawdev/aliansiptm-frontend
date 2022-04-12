@@ -9,9 +9,9 @@ export default function Home() {
 			<Head>
 				<title>{siteTitle} - Aliansi Pencegahan dan Pengendalian Penyakit Tidak Menular</title>
 			</Head>
-			<section class="sub-section sub-subheader header-depan">
-				<div class="container">
-					<div class="sub-subheader--inner">
+			<section className="sub-section sub-subheader header-depan">
+				<div className="container">
+					<div className="sub-subheader--inner">
 						<h1>Cegah PTM dengan Pola Hidup Sehat</h1>
 						<br />
 					</div>

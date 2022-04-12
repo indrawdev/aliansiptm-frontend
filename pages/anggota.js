@@ -11,15 +11,15 @@ function Anggota() {
 			<Head>
 				<title>{anggotaTitle} | {siteTitle}</title>
 			</Head>
-			<section class="sub-section sub-subheader header-anggota">
-				<div class="container">
-					<div class="sub-subheader--inner">
+			<section className="sub-section sub-subheader header-anggota">
+				<div className="container">
+					<div className="sub-subheader--inner">
 						<h1>{anggotaTitle}</h1>
-						<div class="breadcrumbs-wrapper">
-							<ul class="breadcrumbs">
+						<div className="breadcrumbs-wrapper">
+							<ul className="breadcrumbs">
 								<li>
 									<Link href="/">
-										<a><i class="fa fa-home"></i> {depanTitle}</a>
+										<a><i className="fa fa-home"></i> {depanTitle}</a>
 									</Link>
 									<span>/</span>
 								</li>
@@ -29,19 +29,19 @@ function Anggota() {
 					</div>
 				</div>
 			</section>
-			<div class="service-three-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-							<div class="heading text-center mb-40">
-								<span class="heading__subtitle">Organisasi</span>
-								<h2 class="heading__title">Anggota Aliansi</h2>
+			<div className="service-three-section">
+				<div className="container">
+					<div className="row">
+						<div className="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+							<div className="heading text-center mb-40">
+								<span className="heading__subtitle">Organisasi</span>
+								<h2 className="heading__title">Anggota Aliansi</h2>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service green">
+					<div className="row">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service green">
 								<span>
 									<Image
 										src="/images/members/idi.jpg"
@@ -54,8 +54,8 @@ function Anggota() {
 								<p>Ikatan Dokter Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service violet">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service violet">
 								<span>
 									<Image
 										src="/images/members/yji.png"
@@ -68,8 +68,8 @@ function Anggota() {
 								<p>Yayasan Jantung Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/perki.jpg"
@@ -82,8 +82,8 @@ function Anggota() {
 								<p>Perhimpunan Dokter Kardiovaskular Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service green">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service green">
 								<span>
 									<Image
 										src="/images/members/yki.jpg"
@@ -96,8 +96,8 @@ function Anggota() {
 								<p>Yayasan Kanker Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service violet">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service violet">
 								<span>
 									<Image
 										src="/images/members/poi.jpg"
@@ -110,8 +110,8 @@ function Anggota() {
 								<p>Perhimpunan Onkologi Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/idai.png"
@@ -124,8 +124,8 @@ function Anggota() {
 								<p>Ikatan Dokter Anak Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/papdi.png"
@@ -138,8 +138,8 @@ function Anggota() {
 								<p>Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/pdpi.png"
@@ -152,8 +152,8 @@ function Anggota() {
 								<p>Perhimpunan Dokter Paru Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/perdossi.jpeg"
@@ -166,8 +166,8 @@ function Anggota() {
 								<p>Perhimpunan Dokter Spesialis Syaraf Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/perhi.png"
@@ -180,8 +180,8 @@ function Anggota() {
 								<p>Perhimpunan Hipertensi Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/pernefri.png"
@@ -194,8 +194,8 @@ function Anggota() {
 								<p>Perhimpunan Nefrologi Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/pdgki.jpeg"
@@ -208,8 +208,8 @@ function Anggota() {
 								<p>Perhimpunan Dokter Spesialis Gizi Klinik Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/persadia.jpeg"
@@ -222,8 +222,8 @@ function Anggota() {
 								<p>Persatuan Diabetes Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/yastroki.png"
@@ -236,8 +236,8 @@ function Anggota() {
 								<p>Yayasan Stroke Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/pdui.png"
@@ -250,8 +250,8 @@ function Anggota() {
 								<p>Perhimpunan Dokter Umum Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/alzi.png"
@@ -264,22 +264,22 @@ function Anggota() {
 								<p>Yayasan Alzheimer Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
-										src="/images/members/pdui.png"
-										alt="Perhimpunan Dokter Umum Indonesia"
+										src="/images/members/gci.jpg"
+										alt="Green Crescent Indonesia"
 										width={128}
 										height={128}
 									/>
 								</span>
-								<h3>PDUI</h3>
-								<p>Perhimpunan Dokter Umum Indonesia</p>
+								<h3>GCI</h3>
+								<p>Green Crescent Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/sfj.jpg"
@@ -291,8 +291,8 @@ function Anggota() {
 								<p>Smoke Free Jakarta</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/sfa.png"
@@ -304,11 +304,11 @@ function Anggota() {
 								<p>Smoke Free Agents</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
-										src="/images/members/mtcc.jpg"
+										src="/images/members/mtcc.jpeg"
 										width={128}
 										height={128}
 									/>
@@ -317,8 +317,8 @@ function Anggota() {
 								<p>Muhammadiyah Tobacco Control Center</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/komnas-pt.jpg"
@@ -330,8 +330,8 @@ function Anggota() {
 								<p>Komnas Pengendalian Tembakau</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/amkri.jpg"
@@ -343,8 +343,8 @@ function Anggota() {
 								<p>Aliansi Masyarakat Korban Rokok Indonesia</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service pink">
+						<div className="col-lg-3 col-md-6">
+							<div className="single-service pink">
 								<span>
 									<Image
 										src="/images/members/pwe.jpeg"
